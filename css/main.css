@@ -1,0 +1,64 @@
+body {
+	text-align: center;
+	margin: 50px auto 0;
+	clear: both;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+h1{
+	font-size: 3em;
+}
+@media screen and (max-width: 520px){
+	h1{
+		font-size: 2.3em;
+	}
+}
+#randomNum{
+	color: green;
+	font-size: 60px;
+}
+input{
+	margin-top: 30px;
+	width: 40%;
+	text-align: center;
+	height: 35px;
+	border-radius: 3px 3px;
+}
+@media screen and (max-width: 650px){
+	input{
+		width: 60%;
+	}
+}
+#btn{
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	background-color: blue;
+    color: #fff;
+    border: none;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    padding: 7px;
+}
+.correct{
+	color: green;
+	font-size: 50px;
+}
+.incorrect{
+	background-color: red;
+	font-size: 40px;
+	color: #fff;
+	border-radius:5px;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+.incorrect1{
+	background-color: red;
+	font-size: 40px;
+	color: #fff;
+	border-radius:5px;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
